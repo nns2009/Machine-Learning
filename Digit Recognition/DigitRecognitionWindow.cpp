@@ -10,3 +10,8 @@ DigitRecognitionWindow::~DigitRecognitionWindow()
 {
 
 }
+
+void DigitRecognitionWindow::trainClicked()
+{
+
+}

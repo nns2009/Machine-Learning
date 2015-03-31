@@ -12,6 +12,9 @@ public:
     DigitRecognitionWindow(QWidget *parent = 0);
     ~DigitRecognitionWindow();
 
+public slots:
+    void trainClicked();
+
 private:
     Ui::DigitRecognitionWindowClass ui;
 };

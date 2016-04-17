@@ -137,6 +137,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Common.cpp" />
     <ClCompile Include="DigitRecognitionWindow.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_DigitRecognitionWindow.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -157,6 +158,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NNode.cpp" />
+    <ClCompile Include="SimplestNetwork.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="DigitRecognitionWindow.h">
@@ -199,7 +202,10 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Common.h" />
     <ClInclude Include="GeneratedFiles\ui_DigitRecognitionWindow.h" />
+    <ClInclude Include="NNode.h" />
+    <ClInclude Include="SimplestNetwork.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="DigitRecognitionWindow.qrc">
